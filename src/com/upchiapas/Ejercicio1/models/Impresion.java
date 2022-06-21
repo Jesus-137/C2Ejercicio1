@@ -1,10 +1,8 @@
 package com.upchiapas.Ejercicio1.models;
 
 public class Impresion {
-    private LecturaDatos datos;
     public OperacionMetodo operacion;
-    public Impresion(LecturaDatos datos, OperacionMetodo operacion){
-        this.datos=datos;
+    public Impresion(OperacionMetodo operacion){
         this.operacion=operacion;
     }
     public void resultado(){
