@@ -8,7 +8,7 @@ public class Impresion {
         this.operacion=operacion;
     }
     public void resultado(){
-        System.out.println(operacion.getP());
-        System.out.println("El area es: "+operacion.getArea());
+        System.out.println(operacion.p());
+        System.out.println("El area es: "+operacion.area());
     }
 }

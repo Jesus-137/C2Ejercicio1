@@ -10,8 +10,6 @@ public class RepisaTriangular {
     private static Impresion impresion=new Impresion(datos, metodo);
     public static void main(String[] args) {
         datos.leerdatos();
-        metodo.area();
-        metodo.p();
         impresion.resultado();
     }
 }
