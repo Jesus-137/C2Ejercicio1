@@ -2,6 +2,6 @@ package com.upchiapas.Ejercicio1.models;
 
 public class Impresion {
     public OperacionMetodo operacion;
-    public Impresion(OperacionMetodo operacion){this.operacion=operacion;}
-    public void resultado(){System.out.println("El area es: "+operacion.getArea());}
+    public Impresion(){}
+    public void resultado(float area){System.out.println("El area es: "+area);}
 }

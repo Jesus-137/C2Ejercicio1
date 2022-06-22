@@ -13,8 +13,6 @@ public class LecturaDatos {
         System.out.println("Ingrese el dato C: ");
         float c = entrada.nextFloat();
         OperacionMetodo metodo = new OperacionMetodo();
-        metodo.area(a, b, c);
-        Impresion imprime = new Impresion(metodo);
-        imprime.resultado();
+        metodo.imprime(a, b, c);
     }
 }
